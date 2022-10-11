@@ -11,8 +11,8 @@ const Cart = ({items}) => {
     ]
 
     const [selectedVoucher, setSelectedVoucher] = useState(voucher[0])
-    const [shippingPrice, setShippingPrice] = useState(0)
     const [totalPrice, setTotalPrice] = useState(0)
+    const shippingPrice =0
 
 
     useEffect(() => {

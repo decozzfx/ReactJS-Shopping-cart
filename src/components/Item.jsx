@@ -43,18 +43,18 @@ const Item = ({ item }) => {
             </button>
           </div>
         </div>
-        <h2 className="text-black/40 my-2">{item.itemName}</h2>
-        <h3 className="text-black/40 my-2">Color : {item.color}</h3>
-        <h3 className="text-black/40 my-2">Size : {item.size}</h3>
+        <h2 className="text-black/50 my-2 font-semibold">{item.itemName}</h2>
+        <h3 className="text-black/50 my-2 font-semibold">COLOR : {item.color}</h3>
+        <h3 className="text-black/50 my-2 font-semibold">SIZE : {item.size}</h3>
         <div className="flex mt-8">
             <div className="w-6/12 flex">
                 <button className="flex items-center mr-10 text-black/50 hover:text-black" onClick={() => deleteItem(item.id)}>
                     <FaTrash />
-                    <span className="ml-2 ">Remove Item</span>
+                    <span className="ml-2 ">REMOVE ITEM</span>
                 </button>
                 <button className="flex items-center text-black/50 hover:text-black" onClick={() => addToWishlist(item.id)}>
                     { item.wishlist ? <BsHeartFill /> : <BsHeart />}
-                    <span className="ml-2 ">Add to wishlist</span>
+                    <span className="ml-2 ">MOVE TO WISHLIST</span>
                 </button>
             </div>
             <div className="w-6/12 flex justify-end">

@@ -2,7 +2,7 @@
     {
         "id" : "1",
         "brandItemName" : "Blue Denim Shirt", 
-        "itemName" : "Shirt Blue",
+        "itemName" : "SHIRT - BLUE",
         "color" : "Blue",
         "size" : "M",
         "price" : "17.99",
@@ -13,7 +13,7 @@
     {
         "id" : "2",
         "brandItemName" : "Red Hoodie", 
-        "itemName" : "Hoodie Red",
+        "itemName" : "HOODIE - RED",
         "color" : "Red",
         "size" : "M",
         "price" : "35.99",
