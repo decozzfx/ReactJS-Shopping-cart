@@ -17,7 +17,7 @@ const Cart = ({items}) => {
 
     useEffect(() => {
         let sumTotal = 0
-        const total = items?.map(item => sumTotal += item.price * item.qty)
+        items?.forEach(item => sumTotal += item.price * item.qty)
         setTotalPrice(sumTotal.toPrecision(4))
 
     },[items])
@@ -32,7 +32,7 @@ const Cart = ({items}) => {
             </div>
             <div className="flex justify-between mt-4 text-black/50 border-b-2 pb-5">
                 <h2>Shipping</h2>
-                <i>{shippingPrice == 0 ? 'Gratis' : shippingPrice}</i>
+                <i>{shippingPrice === 0 ? 'Free' : shippingPrice}</i>
             </div>
             <div className="flex justify-between mt-5">
                 <h2 className='w-1/2'>The total amount of (including VAT)</h2>

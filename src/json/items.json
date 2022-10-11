@@ -7,7 +7,8 @@
         "size" : "M",
         "price" : "17.99",
         "image" : "/blue-denim-shirt.jpg",
-        "qty" : "1"
+        "qty" : "1",
+        "wishlist" : false
     },
     {
         "id" : "2",
@@ -17,7 +18,7 @@
         "size" : "M",
         "price" : "35.99",
         "image" : "/red-hoodie.jpg",
-        "qty" : "1"
-
+        "qty" : "1",
+        "wishlist" : false
     }
 ]
